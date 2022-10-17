@@ -1,37 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--The title tag changes the text that shows up in the tab on the web browser-->
     <title>My First Webpage</title>
-</head>
-<body>
+  </head>
+  <body>
     <!--
-        Each element that we create for a website NEEDS to go in the body of the document.
+      Each element that we create for a website NEEDS to go in the body of the document.
 
-        Most elements start with an opening tag and end with a closing tag.
-        In this example, <h1> is the opening tag and </h1> is the closing tag.
-        Inside the opening and closing tags, is the content that you actually want to display on the website.
+      Most elements start with an opening tag and end with a closing tag.
+      In this example, <h1> is the opening tag and </h1> is the closing tag.
+      Inside the opening and closing tags, is the content that you actually want to display on the website.
 
-        This is an example of a heading tag, where it is the largest possible heading
+      This is an example of a heading tag, where it is the largest possible heading
     -->
-
-    <h1>Hello World!</h1>
-    <a href = "https://www.pembinatrails.ca/earlycollege"><img src="Images/Ptec.png"></a>
-    <p>This is an example of a paragraph tag</p>
-    <p>My name is Nicholas Werenich</p>
-    <p><br>Here is a link to the <a href = "https://www.pembinatrails.ca/earlycollege" target ="_blank">PTEC Home Page</a></p>
-    <br />
-    <br />
-    <a href = "headings-and-paragraphs.html">Headings and Paragraphes</a>
-    <br />
-    <br />
-    <a href = "links-and-images.html">Links and images</a>
-    <br />
-    <br />
-    <a href = "Iframes-tables-and-lists.html">Iframes, Tables and lists</a>
-    <body style="background-color:rgb(255, 255, 248);"></body>
-</body>
+    <header>
+      <h1>Hello World!</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home Page</a></li>
+          <li><a href="links-and-images.html">Links and Images</a></li>
+          <li>
+            <a href="headings-and-paragraphs.html">
+              Headings and Paragraphes
+            </a>
+          </li>
+          <li><a href="forms.html">Forms</a></li>
+          <li>
+            <a href="Iframes-tables-and-lists.html">
+              Iframes Tables and Lists
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <a href="https://www.pembinatrails.ca/earlycollege">
+        <img src="Images/Ptec.png" />
+      </a>
+      <p>This is an example of a paragraph tag</p>
+      <p>My name is Nicholas Werenich</p>
+      <br />
+      <p>
+        Here is a link to the
+        <a href="https://www.pembinatrails.ca/earlycollege" target="_blank"
+          >PTEC Home Page</a
+        >
+      </p>
+      <body style="background-color: rgb(255, 255, 248)"></body>
+    </main>
+    <footer>
+      <p>&#169; 2022 Mr.Werenich</p>
+    </footer>
+  </body>
 </html>

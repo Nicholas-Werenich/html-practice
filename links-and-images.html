@@ -1,36 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Links and images</title>
-</head>
-<body>
-    <h1>Links and images</h1>
-    <!--
-    Paragraphs are an example of block elements because, by default they take
-    up the eintire width of the web page and add space at the top and bottom of the element.
+  </head>
+  <body>
+    <header>
+      <h1>Links and images</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home Page</a></li>
+          <li><a href="links-and-images.html">Links and Images</a></li>
+          <li>
+            <a href="headings-and-paragraphs.html">
+              Headings and Paragraphes
+            </a>
+          </li>
+          <li><a href="forms.html">Forms</a></li>
+          <li>
+            <a href="Iframes-tables-and-lists.html">
+              Iframes Tables and Lists
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!--
+      Paragraphs are an example of block elements because, by default they take
+      up the eintire width of the web page and add space at the top and bottom of the element.
     -->
-    <p>This web page shows the difference between block and lnline elements</p>
-    <!--Anchors are an example of inline elements becuase, by default, they only take up the space that they need to.
-    We showed the difference between block and inline lements sing Developer Tool, which we accessed using Ctrl+Shift+I.
-    Developer Tools is helful to show you the exact code that is used to display a specific dlement and can show you the 
-    width, height, and spacing around an element.-->
-    <a href = "index.html">Home Page</a>
-    <a href = "headings-and-paragraphs.html">Headings and Paragraphes</a>
-    <a href = "Iframes-tables-and-lists.html">Iframes, Tables and lists</a>
-    <a href = "https://7-eleven.ca/contact-us" target = "_blank">Get 2 slurpees for the price of 2!</a>
-    
-    <!-- This is an example of an image tag.
-The src attribute is the location of the image we want to display.
-The src attrubite can be an internet location (i.e, https://www.google.com/...),
-But the best practice is to have your own images folder that stores all the images you use on your website.
+      <p>
+        This web page shows the difference between block and lnline elements
+      </p>
+      <!--
+      Anchors are an example of inline elements becuase, by default, they only take up the space that they need to.
+      We showed the difference between block and inline lements sing Developer Tool, which we accessed using Ctrl+Shift+I.
+      Developer Tools is helful to show you the exact code that is used to display a specific dlement and can show you the 
+      width, height, and spacing around an element.
+    -->
+      <a href="index.html">Home Page</a>
+      <a href="headings-and-paragraphs.html">Headings and Paragraphes</a>
+      <a href="Iframes-tables-and-lists.html">Iframes, Tables and lists</a>
+      <a href="https://7-eleven.ca/contact-us" target="_blank">
+        Get 2 slurpees for the price of 2!
+      </a>
 
-Note: img is a self-closing tag.-->
-    <img src="Images/Alien.jpg"
-    width ="500"
-    alt = "A green alien looking past the viewpoint with an Black, green, white gradient background. The shadows and highlights are realistic."
-    />
-</body>
+      <!--
+      This is an example of an image tag.
+      The src attribute is the location of the image we want to display.
+      The src attrubite can be an internet location (i.e, https://www.google.com/...),
+      But the best practice is to have your own images folder that stores all the images you use on your website.
+      Note: img is a self-closing tag.
+    -->
+      <img
+        src="Images/Alien.jpg"
+        width="500"
+        alt="A green alien looking past the viewpoint with an Black, green, white gradient background.
+        The shadows and highlights are realistic." />
+    </main>
+    <footer>
+      <p>&#169; 2022 Mr.Werenich</p>
+    </footer>
+  </body>
 </html>
